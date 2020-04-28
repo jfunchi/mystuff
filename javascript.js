@@ -1,4 +1,4 @@
-$("button[type='submit']").on('load', function() {
+jQuery("button[type='submit']").on('load', function() {
     console.log('iframe loaded?');
 });
 
@@ -18,19 +18,19 @@ jQuery(document).ready(function() {
 
 
     /*********************/
-    console.log("document is ready jquery");
+    alert("document is ready jquery");
     
 });
 
 document.addEventListener("DOMContentLoaded", function(){
-    console.log("DomContentLoaded");
+    alert("DomContentLoaded");
 });
 
 window.addEventListener('load', function(){
-    console.log("Hell yeah");
+    alert("Hell yeah");
 });
 
-// $('#textarea-00000008-acc').load(function() {
-//     var gimme = jQuery("#textarea-00000008-acc")
-//     console.log("look: " + gimme);;
-// });
+jQuery('#textarea-00000008-acc').load(function() {
+     var gimme = jQuery("#textarea-00000008-acc")
+     console.log("look: " + gimme);;
+ });
