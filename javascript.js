@@ -31,6 +31,6 @@ window.addEventListener('load', function(){
 });
 
 jQuery('#textarea-00000008-acc').load(function() {
-     var gimme = jQuery("#textarea-00000008-acc")
+     var gimme = jQuery("#text-00000008-acc")
      console.log("look: " + gimme);;
  });
