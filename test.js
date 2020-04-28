@@ -28,9 +28,10 @@ document.addEventListener("DOMContentLoaded", function(){
 
 window.addEventListener('load', function(){
     alert("Hell yeah");
+    jQuery('#text-00000008-acc').load(function() {
+         var gimme = jQuery("#text-00000008-acc")
+         console.log("look: " + gimme);;
+     });
 });
 
-jQuery('#text-00000008-acc').load(function() {
-     var gimme = jQuery("#text-00000008-acc")
-     console.log("look: " + gimme);;
- });
+
